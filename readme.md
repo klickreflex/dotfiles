@@ -1,6 +1,6 @@
 # Daniel's Dotfiles
 
-Shamelessly copied over from [Rob's Dotfiles](ghttps://github.com/robdekort/dotfiles) and adapted to my needs.
+Shamelessly copied over from [Rob's Dotfiles](https://github.com/robdekort/dotfiles) and adapted to my needs.
 
 This repository contains my Dotfiles and anything else I use to setup and maintain my Macs. It simplifies the process of installing software on new Macs and it helps to keep my configuration the same on every machine I use.
 
