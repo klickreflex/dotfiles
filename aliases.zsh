@@ -14,7 +14,7 @@ alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && kill
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
 # Git
-alias status="git status"
+alias st="git status"
 alias add="git add"
 alias all="git add ."
 alias push="git push"
