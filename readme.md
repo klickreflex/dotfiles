@@ -27,4 +27,4 @@ Now that you've made sure you've done all the things, setup your mac!
 9. Restart Mac to make sure everything works
 
 ## ❤️
-This is 100% inspired by the brilliant [Duncan](https://github.com/duncanmcclean/dotfiles).
+This is 100% inspired by the brilliant [Rob](https://github.com/robdekort/dotfiles) who was inspired by the brilliant [Duncan](https://github.com/duncanmcclean/dotfiles) :)
