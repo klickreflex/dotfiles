@@ -19,11 +19,11 @@ else
 fi
 
 # Symlink spaceship.zsh-theme to your oh-my-zsh custom themes directory:
-if [ -L ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme ]; then
+if [ -L ~/.oh-my-zsh/themes/spaceship.zsh-theme ]; then
     echo "Theme already symlinked, nothing to do."
 else
     echo "Theme not yet symlinked, creating symlink..."
-    ln -s ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme
+    ln -s ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh/themes/spaceship.zsh-theme
 fi
 
 
