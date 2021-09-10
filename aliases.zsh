@@ -26,6 +26,7 @@ alias branch="git branch"
 alias reset="git reset"
 alias clone="git clone"
 alias init="git init && git add . && git commit -m 'Initial commit'"
+alias gs="git status"
 
 # Other
 # Get coding
