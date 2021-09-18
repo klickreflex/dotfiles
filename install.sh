@@ -54,6 +54,7 @@ homebrew_packages=(
  "mailhog"
  "mas"
  "pkg-config"
+ "rbenv"
 )
 
 for homebrew_package in "${homebrew_packages[@]}"; do
