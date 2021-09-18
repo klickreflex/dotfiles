@@ -27,6 +27,8 @@ alias reset="git reset"
 alias clone="git clone"
 alias init="git init && git add . && git commit -m 'Initial commit'"
 alias gs="git status"
+alias init="git init && git add . && git commit -m 'Initial commit'"
+alias discard="git clean -df && git reset --hard"
 
 # Other
 # Get coding
