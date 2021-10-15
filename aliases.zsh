@@ -42,3 +42,5 @@ alias ttfb="curl -o /dev/null -w 'Connect: %{time_connect} TTFB: %{time_starttra
 
 # Human friendly recursive file sizes
 alias duf='du -sk * | sort -n | perl -ne '\''($s,$f)=split(m{\t});for (qw(K M G)) {if($s<1024) {printf("%.1f",$s);print "$_\t$f"; last};$s=$s/1024}'\'
+
+alias flushdns="sudo killall -HUP mDNSResponder; say dns cleared successfully"
