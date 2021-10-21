@@ -69,7 +69,7 @@ brew tap homebrew/homebrew-cask
 
 homebrew_cask_packages=(
   "1password"
-  "alfred"
+  "raycast"
   "appcleaner"
   "around"
   "cleanmymac"
