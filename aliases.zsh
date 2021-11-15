@@ -1,5 +1,6 @@
 # Shortcuts
 alias plz="php please"
+alias pls="php please"
 alias g="git"
 alias c="composer"
 alias ci="composer install"
@@ -32,7 +33,8 @@ alias discard="git clean -df && git reset --hard"
 
 # Other
 # Get coding
-alias start='git pull && php artisan cache:clear && code . && npm run hot'
+alias start='code . && git pull && php artisan cache:clear && npm run watch'
+alias fstart='code . && git pull && composer install && npm i && php artisan cache:clear && npm run watch'
 
 # Unsets gf alias from ~/.oh-my-zsh/plugins/git/git.plugin.zsh to make gitfox binary work
 unalias gf

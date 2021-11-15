@@ -1,0 +1,6 @@
+{
+    "require": {
+        "laravel/valet": "^2.15",
+        "statamic/cli": "^2.1"
+    }
+}

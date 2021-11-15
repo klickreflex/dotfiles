@@ -29,7 +29,12 @@ fi
 
 # Configure symlinks
 ln -sf ~/.dotfiles/.zshrc ~/.zshrc
-ln -sf ~/.dotfiles/.mackup.cfg ~/.mackup.cfg
+rm ~/.ssh/config
+ln -sf ~/.dotfiles/.ssh/config ~/.ssh/config
+rm ~/.gitconfig
+ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
+
+
 
 # Homebrew - Installation
 echo "Installing Homebrew"
@@ -50,7 +55,6 @@ homebrew_packages=(
  "mariadb"
  "php"
  "node"
- "mackup"
  "mailhog"
  "mas"
  "pkg-config"
@@ -91,6 +95,7 @@ homebrew_cask_packages=(
   "pocket-casts"
   "prizmo"
   "rectangle"
+  "redis"
   "rightfont"
   "rowanj-gitx"
   "selfcontrol"
@@ -139,6 +144,10 @@ mas install 1491071483 # Tot
 echo "Installing Composer"
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
+rm ~/.composer/config.json
+ln -sf ~/.dotfiles/.composer/config.json ~/.composer/config.json
+rm ~/.composer/composer.json
+ln -sf ~/.dotfiles/.composer/composer.json ~/.composer/composer.json
 
 # Install Global Composer Packages
 echo "Installing Global Composer Packages"
@@ -177,6 +186,9 @@ npm install -g npm-check-updates
 
 # Register the Global Gitignore file
 git config --global core.excludesfile $HOME/.dotfiles/.gitignore_global
+
+# Hide 'Last Logged In' in terminal
+touch .hushlogin
 
 # Hide 'Last Logged In' in terminal
 touch .hushlogin

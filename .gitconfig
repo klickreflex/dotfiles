@@ -1,0 +1,39 @@
+[user]
+	email = hello@wentsch.me
+	name = Daniel Wentsch
+[core]
+    editor = code -w
+    filemode = false
+    filemode = false
+	excludesfile = /Users/daniel/.gitignore
+[github]
+    user = klickreflex
+    token = 5682fa5048f9d3d13d8b610dd4c53ebea9e5db72
+[push]
+    default = simple
+[alias]
+    daniel = config user.email \"hello@wentsch.me\"
+    s = status
+    co = checkout
+    ca = commit -a
+    prb = pull --rebase
+    rbc = rebase --continue
+    pom = pull origin master
+
+    append = commit --amend –C HEAD
+    l = log --pretty=oneline --abbrev-commit --graph --decorate
+
+    # Add untracked, remove deleted, and show status
+    adda = !git add -A && git status
+
+[color]
+	ui = auto
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
