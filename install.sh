@@ -76,7 +76,6 @@ homebrew_cask_packages=(
   "cleanshot"
   "discord"
   "figma"
-  "flux"
   "font-fira-code"
   "firefox"
   "handbrake"
@@ -92,8 +91,6 @@ homebrew_cask_packages=(
   "pocket-casts"
   "prizmo"
   "rectangle"
-  "redis"
-  "rescuetime"
   "rightfont"
   "rowanj-gitx"
   "selfcontrol"
@@ -102,8 +99,6 @@ homebrew_cask_packages=(
   "sipgate-softphone"
   "slack"
   "transmit"
-  "tower"
-  "transmission"
   "visual-studio-code"
   "zoom"
 )
@@ -122,7 +117,7 @@ mas install 1079833326 # Receipts
 mas install 1529448980 # Reeder
 mas install 409183694 # Keynote
 mas install 824171161 # Affinity Designer
-mas install 1487937127 # Craft
+# mas install 1487937127 # Craft
 mas install 425424353  # The Unarchiver
 mas install 1461456897 # Tyme
 mas install 1495179755 # EasyLetter
@@ -137,6 +132,8 @@ mas install 409203825 # Numbers
 mas install 1502111349 # PDF Squeezer
 mas install 1365531024 # 1Blocker
 mas install 775737590 # iA Writer
+mas install 1532801185 # mymind
+mas install 1491071483 # Tot
 
 # Install Composer
 echo "Installing Composer"
