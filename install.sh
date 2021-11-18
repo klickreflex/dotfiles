@@ -40,7 +40,7 @@ ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
 echo "Installing Homebrew"
 
 if test ! $(which brew); then
- /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 # Update homebrew recipes
@@ -80,7 +80,6 @@ homebrew_cask_packages=(
   "cleanshot"
   "discord"
   "figma"
-  "font-fira-code"
   "firefox"
   "handbrake"
   "iconjar"
