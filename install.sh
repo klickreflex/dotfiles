@@ -156,8 +156,8 @@ $HOME/.composer/vendor/bin/valet install
 valet trust
 
 # Create Sites directory
-echo "Creating a Sites directory"
-mkdir $HOME/www
+# echo "Creating a Sites directory"
+# mkdir $HOME/www
 
 # Start MySQL for the first time
 echo "Starting MySQL for the first time"
