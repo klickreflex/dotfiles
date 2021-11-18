@@ -31,7 +31,7 @@ fi
 ln -sf ~/.dotfiles/.zshrc ~/.zshrc
 rm ~/.ssh/config
 ln -sf ~/.dotfiles/.ssh/config ~/.ssh/config
-rm ~/.gitconfig
+# rm ~/.gitconfig
 ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
 
 
