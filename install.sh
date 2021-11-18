@@ -118,7 +118,7 @@ mas install 904280696 # Things
 # mas install 1556313108 # Scan Thing
 mas install 1499181666 # OwlOCR
 mas install 1079833326 # Receipts
-mas install 1529448980 # Reeder
+# mas install 1529448980 # Reeder
 mas install 409183694 # Keynote
 mas install 824171161 # Affinity Designer
 # mas install 1487937127 # Craft
