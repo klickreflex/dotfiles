@@ -115,7 +115,7 @@ done
 echo "Installing App Store apps"
 mas install 824183456 #Affinity Photo
 mas install 904280696 # Things
-mas install 1556313108 # Scan Thing
+# mas install 1556313108 # Scan Thing
 mas install 1499181666 # OwlOCR
 mas install 1079833326 # Receipts
 mas install 1529448980 # Reeder
