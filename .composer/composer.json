@@ -1,6 +1,8 @@
 {
     "require": {
-        "laravel/valet": "^2.15",
-        "statamic/cli": "^2.1"
+        "laravel/valet": "^2.16",
+        "statamic/cli": "^2.1",
+        "laravel/installer": "^4.2",
+        "schmidfelix/ploi-cli": "^1.4"
     }
 }

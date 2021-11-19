@@ -5,7 +5,7 @@
     editor = code -w
     filemode = false
     filemode = false
-	excludesfile = /Users/daniel/.gitignore
+	excludesfile = /Users/daniel/.dotfiles/.gitignore_global
 [github]
     user = klickreflex
     token = 5682fa5048f9d3d13d8b610dd4c53ebea9e5db72
