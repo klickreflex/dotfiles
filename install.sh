@@ -75,7 +75,6 @@ homebrew_cask_packages=(
   "1password"
   "raycast"
   "appcleaner"
-  "around"
   "cleanmymac"
   "cleanshot"
   "discord"
@@ -138,6 +137,7 @@ mas install 1365531024 # 1Blocker
 mas install 775737590 # iA Writer
 mas install 1532801185 # mymind
 mas install 1491071483 # Tot
+mas install 990588172 # Gestimer
 
 # Install Composer
 echo "Installing Composer"
