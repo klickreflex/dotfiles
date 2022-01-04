@@ -54,7 +54,7 @@ homebrew_packages=(
  "imagemagick"
  "mariadb"
  "php"
- "node"
+ " "
  "mailhog"
  "mas"
  "pkg-config"
