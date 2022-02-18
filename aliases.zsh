@@ -37,7 +37,7 @@ alias start='code . && git pull && php artisan cache:clear && npm run watch'
 alias fstart='code . && git pull && composer install && npm i && php artisan cache:clear && npm run watch'
 
 # Unsets gf alias from ~/.oh-my-zsh/plugins/git/git.plugin.zsh to make gitfox binary work
-unalias gf
+# unalias gf
 
 # Time too first byte
 alias ttfb="curl -o /dev/null -w 'Connect: %{time_connect} TTFB: %{time_starttransfer} Total time: %{time_total} \n'"
@@ -46,3 +46,5 @@ alias ttfb="curl -o /dev/null -w 'Connect: %{time_connect} TTFB: %{time_starttra
 alias duf='du -sk * | sort -n | perl -ne '\''($s,$f)=split(m{\t});for (qw(K M G)) {if($s<1024) {printf("%.1f",$s);print "$_\t$f"; last};$s=$s/1024}'\'
 
 alias flushdns="sudo killall -HUP mDNSResponder; say dns cleared successfully"
+
+alias a="artisan"
