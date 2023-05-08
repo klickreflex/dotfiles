@@ -1,3 +1,9 @@
 {
-    "config": {}
+    "config": {},
+	"repositories": [
+		{
+			"type": "path",
+			"url": "/Users/daniel/www/statamic-peak"
+		}
+	]
 }
