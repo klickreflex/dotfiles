@@ -27,7 +27,6 @@ alias branch="git branch"
 alias reset="git reset"
 alias clone="git clone"
 alias init="git init && git add . && git commit -m 'Initial commit'"
-alias gs="git status"
 alias init="git init && git add . && git commit -m 'Initial commit'"
 alias discard="git clean -df && git reset --hard"
 
@@ -37,7 +36,10 @@ alias start='code . && git pull && php artisan cache:clear && npm run watch'
 alias fstart='code . && git pull && composer install && npm i && php artisan cache:clear && npm run watch'
 
 # Unsets gf alias from ~/.oh-my-zsh/plugins/git/git.plugin.zsh to make gitfox binary work
-# unalias gf
+unalias gf
+
+alias gf="gitfox"
+
 
 # Time too first byte
 alias ttfb="curl -o /dev/null -w 'Connect: %{time_connect} TTFB: %{time_starttransfer} Total time: %{time_total} \n'"

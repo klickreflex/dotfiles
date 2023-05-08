@@ -11,6 +11,7 @@
     token = 5682fa5048f9d3d13d8b610dd4c53ebea9e5db72
 [push]
     default = simple
+	autoSetupRemote = true
 [alias]
     daniel = config user.email \"hello@wentsch.me\"
     s = status
