@@ -32,8 +32,8 @@ alias discard="git clean -df && git reset --hard"
 
 # Other
 # Get coding
-alias start='code . && git pull && php artisan cache:clear && npm run watch'
-alias fstart='code . && git pull && composer install && npm i && php artisan cache:clear && npm run watch'
+alias start='code . && git pull && php please optimize:clear && npm run dev'
+alias fstart='code . && git pull && composer install && npm i && php please optimize:clear && npm run dev'
 
 # Unsets gf alias from ~/.oh-my-zsh/plugins/git/git.plugin.zsh to make gitfox binary work
 unalias gf

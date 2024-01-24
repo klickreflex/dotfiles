@@ -177,10 +177,6 @@ pecl install imagick
 pecl install redis
 valet restart
 
-# Installing Global Node Dependecies
-echo "Installing Global Node Dependecies"
-npm install -g npm-check-updates
-
 # Register the Global Gitignore file
 git config --global core.excludesfile $HOME/.dotfiles/.gitignore_global
 

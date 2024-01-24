@@ -23,3 +23,4 @@ Thumbs.db
 .nova/Configuration.json
 .nova
 ploi.yml
+.favorites.json
